@@ -1,5 +1,7 @@
-import PhaedraLogo from "assets/images/logos/phaedra.jpeg";
-import BrainxLogo from "assets/images/logos/brainxtech.png";
+import NanoleafLogo from "assets/images/logos/nanoleaf.png";
+import PANWLogo from "assets/images/logos/PANWLogo.png";
+import UofTLogo from "assets/images/logos/UofTLogo.jpeg";
+
 import CodenyaLogo from "assets/images/logos/codenya.png";
 import BrainplowLogo from "assets/images/logos/brainplow.jpg";
 import UniLogo from "assets/images/logos/fast.png";
@@ -24,103 +26,61 @@ import nginx from "assets/images/skills/nginx.png";
 
 export const companies = [
   {
-    title: "Phaedra Solutions",
-    alt: "PS image",
-    role: "Senior Software Engineer",
-    skills: ["ruby", "rails", "typescript", "javascript", "react", "aws"],
-    period: "2019 - Present",
-    logo: PhaedraLogo
-  },
-  {
-    title: "Brainx Technologies",
+    title: "Palo Alto Networks",
     alt: "BT image",
-    role: "Software Engineer",
-    skills: ["ruby", "rails", "javascript", "python"],
-    period: "2018 - 2019",
-    logo: BrainxLogo
+    role: "Software Engineer Intern (Prism Public Cloud)",
+    skills: ["Go", "react", "javascript",  "bootstrap", "python", "vscode api", "figma",],
+    period: "2022 - 2022",
+    logo: PANWLogo
   },
   {
-    title: "Codenya Studio",
+    title: "Nanoleaf",
     alt: "CS image",
-    role: "Co-founder, CTO",
-    skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-    period: "2018 - Present",
-    logo: CodenyaLogo
+    role: "Software Engineer Intern (Embedded Systems)",
+    skills: ["c/c++", "python", "vscode"],
+    period: "2021 - 2022",
+    logo: NanoleafLogo
   },
-  {
-    title: "Brainplow",
-    alt: "Brainplow image",
-    role: "Software Engineer",
-    skills: ["javascript", "python", "angular"],
-    period: "2017 - 2018",
-    logo: BrainplowLogo
-  }
 ];
 
 export const institutes = [
   {
-    short_title: "FAST - NUCES",
-    title: "National University of Computer and Emerging Sciences",
+    short_title: "UofT - CompEng",
+    title: "University of Toronto, Computer Engineering",
     alt: "Nuces image",
-    role: "Bachelor's Degree in Computer Science",
+    role: "Bachelor's Degree in Applied Sciences and Engineering",
     skills: ["project management", "web development", "data structures"],
-    period: "2013 - 2017",
-    startingYear: "2013",
-    logo: UniLogo,
+    period: "2018 - 2023",
+    startingYear: "2018",
+    logo: UofTLogo,
     awards: [
       {
-        title: "Speed Programming Battle",
+        title: "ECE444: Software Engineerin ",
         description:
-          "Won speed programming battle which held at FAST - NUCES.",
-        date: "May 1, 2015"
+          "Rank 4th in best overall course searching web application",
+        date: "Dec 1, 2022"
       },
-      {
-        title: "Silver Medal",
-        description:
-          "This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.",
-        date: "May 1, 2014"
-      },
-      {
-        title: "Speed Programming Battle",
-        description:
-          "Won speed programming battle which held at FAST - NUCES.",
-        date: "Nov 1, 2013"
-      }
     ]
   },
-  {
-    short_title: "Govt Degree College",
-    title: "Govt Degree College",
-    alt: "college image",
-    role: "FSC",
-    skills: ["mathematic", "chemistry", "physics"],
-    period: "2011 - 2013",
-    startingYear: "2011",
-    logo: ""
-  }
+  // {
+  //   short_title: "Govt Degree College",
+  //   title: "Govt Degree College",
+  //   alt: "college image",
+  //   role: "FSC",
+  //   skills: ["mathematic", "chemistry", "physics"],
+  //   period: "2011 - 2013",
+  //   startingYear: "2011",
+  //   logo: ""
+  // }
 ];
 
 export const skills = [
-  {
-    name: "Ruby on Rails",
-    description: "Web development",
-    link: "https://rubyonrails.org/",
-    type: "development",
-    image: rails
-  },
   {
     name: "React",
     description: "Web development",
     link: "https://reactjs.org/",
     type: "development",
     image: react
-  },
-  {
-    name: "Ruby",
-    description: "Web development, scrapping",
-    link: "https://www.ruby-lang.org/en/",
-    type: "development",
-    image: ruby
   },
   {
     name: "Python",
@@ -165,26 +125,19 @@ export const skills = [
     image: bootstrap
   },
   {
-    name: "Postgres",
-    description: "Database",
-    link: "https://www.postgresql.org/",
-    type: "database",
-    image: postgres
-  },
-  {
     name: "Mysql",
     description: "Database",
     link: "https://www.mysql.com/",
     type: "database",
     image: mysql
   },
-  {
-    name: "Redis",
-    description: "Database",
-    link: "https://redis.io/",
-    type: "database",
-    image: redis
-  },
+  // {
+  //   name: "Redis",
+  //   description: "Database",
+  //   link: "https://redis.io/",
+  //   type: "database",
+  //   image: redis
+  // },
   {
     name: "Heroku",
     description: "Devops",
@@ -192,20 +145,20 @@ export const skills = [
     type: "devops",
     image: heroku
   },
-  {
-    name: "AWS",
-    description: "Devops",
-    link: "https://aws.amazon.com/",
-    type: "devops",
-    image: aws
-  },
-  {
-    name: "Digital Ocean",
-    description: "Devops",
-    link: "https://www.digitalocean.com/",
-    type: "devops",
-    image: docean
-  },
+  // {
+  //   name: "AWS",
+  //   description: "Devops",
+  //   link: "https://aws.amazon.com/",
+  //   type: "devops",
+  //   image: aws
+  // },
+  // {
+  //   name: "Digital Ocean",
+  //   description: "Devops",
+  //   link: "https://www.digitalocean.com/",
+  //   type: "devops",
+  //   image: docean
+  // },
   {
     name: "Nginx",
     description: "Web server",

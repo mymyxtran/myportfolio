@@ -69,28 +69,23 @@ const Home = () => {
           }}
         >
           <Header underlineColor={ORANGE} emoji="👋" mt={0} className="face">
-            Hey!
+            Hello!
           </Header>
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{" "}
             <Box as="strong" fontWeight="600">
-              Ahmad
+              Mymy
             </Box>{" "}
-            and I&apos;m a{" "}
+            and I am computer engineering student
             <Box as="span" whiteSpace="nowrap">
-              Full Stack Developer and
             </Box>{" "}
-            <Box as="span" whiteSpace="nowrap">
-              an open source lover&nbsp;
-            </Box>
             from{" "}
             <Box as="span" whiteSpace="nowrap">
-              Pakistan 🇵🇰
+              Canada 
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            This is my digital garden, where I write about the things I'm
-            working on and share what I've learned. 😊
+            I have a strong desire to positively impact the world and am not afraid to take a shot. I am comfortable with working in fast pace environments, and embrace new challenges. My interest lies in the following areas: software development, data analytics, environmental policy, and education.😊
           </Box>
         </MotionFlex>
       </Flex>
@@ -129,20 +124,20 @@ const Home = () => {
             <UnorderedList textAlign="left" paddingLeft={5} m={0}>
             <ListItem>
                 <Link as={NavLink} to="/open-source">
-                  Live/Local Github Repos
+                   Open Source Project
                   <Badge ml="1" colorScheme="green">
                     New
                   </Badge>
                 </Link>
-              </ListItem>
+            </ListItem>
               <ListItem>
                 <Link as={NavLink} to="/story-timeline">
-                  Story page
+                  Timeline of Experiences
                 </Link>
               </ListItem>
               <ListItem>
                 <Link as={NavLink} to="/tech-stack">
-                  Tech Stack
+                  My Tech Stack
                 </Link>
               </ListItem>
               <ListItem>

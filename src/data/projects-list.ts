@@ -27,16 +27,16 @@ export const projectsList = [
   },
   {
     id: 3,
-    title: "Workof Ecommerce",
+    title: "FakeNewsDetector",
     logo: workof,
     blurHash: "L2M5%%0000EN00I:-oIp00kC?^sl",
     link: "https://workof.com/",
-    desc: `This is an Ecommerce furniture site. It provides a single platform to multiple vendors where they can put their products on sale.`,
+    desc: ``,
     technologies: ["ruby", "rails", "javascript"]
   },
   {
     id: 4,
-    title: "Souq of Qatar",
+    title: "SalmonRun",
     logo: souq,
     blurHash: "L1O^uE0679I00AGT?.H{00y7p2tK",
     link: "https://www.souqofqatar.com/",
@@ -48,11 +48,11 @@ export const projectsList = [
   },
   {
     id: 5,
-    title: "GoSave",
+    title: "Connect Four",
     logo: gosave,
     blurHash: "L09sWSxdH;s?%6axWAfk00V?%jax",
-    link: "https://gosavehq.com/",
-    desc: `The GoSave app let's you send allowances, assign chores, and approve spending all from your smartphone. These actions appear on each kid's toy, along with a live bank balance so they can watch their savings grow.`,
-    technologies: ["ruby", "rails"]
+    link: "https://github.com/mymyxtran/connectfour",
+    desc: `Play Connect four on your terminal.`,
+    technologies: ["c/c++"]
   }
 ];
