@@ -15,3 +15,7 @@ This is the source for my personal website [mahmad](https://mahmad.me).
 ## License
 
 Licensed under the MIT License. Feel free to use parts of the code in your own projects with attribution!
+
+
+# Links
+- https://www.freecodecamp.org/news/how-to-use-react-icons/
