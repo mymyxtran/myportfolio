@@ -8,9 +8,9 @@ This is the source for my personal website [mahmad](https://mahmad.me).
 - [react icons](https://react-icons.github.io/react-icons/)
 
 ## Screens
-![Home Screen](/src/assets/images/screens/home_page.png)
+<!-- ![Home Screen](/src/assets/images/screens/home_page.png)
 ![Skills Screen](/src/assets/images/screens/skills.png)
-![OpenSource Screen](/src/assets/images/screens/open_source.png)
+![OpenSource Screen](/src/assets/images/screens/open_source.png) -->
 
 ## License
 
